@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тест о Беларуси — 20 вопросов с объяснениями | Ведалія</title>
+  <meta name="description" content="Проверьте знания о Беларуси: 20 вопросов по истории, культуре, географии и языку. После каждого ответа — объяснение и разбор ошибок.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var t = JSON.parse(localStorage.getItem("vedalia.theme"));
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Ведалія — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 22 12 12 22 2 12Z"/><path d="M12 7v10M7 12h10"/></svg>
+        </span>
+        <span>
+          <span class="brand-name">Ведалія</span>
+          <span class="brand-sub">Беларусь · учимся вместе</span>
+        </span>
+      </a>
+      <nav class="nav" data-nav aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="history.html">История</a>
+        <a href="culture.html">Культура</a>
+        <a href="nature.html">Природа</a>
+        <a href="language.html">Язык</a>
+        <a href="quiz.html" class="active" aria-current="page">Тест</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Переключить тему">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" data-nav-toggle type="button" aria-label="Открыть меню" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a><span>/</span><span>Тест</span>
+        </nav>
+        <h1>Проверьте, что запомнилось</h1>
+        <p class="lead">20 вопросов по всем разделам сайта. После каждого ответа вы увидите объяснение, а в конце — разбор ошибок.</p>
+        <div class="page-meta">
+          <span class="pill pill-red">20 вопросов</span>
+          <span class="pill">5–7 минут</span>
+          <span class="pill">результат сохраняется</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="quiz-shell">
+          <div class="quiz-card">
+            <!-- Стартовый экран -->
+            <div class="quiz-intro" id="quizIntro">
+              <div class="big-ornament" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linejoin="round">
+                  <path d="M12 2 22 12 12 22 2 12Z"/>
+                  <path d="M12 7v10M7 12h10"/>
+                </svg>
+              </div>
+              <h2>Готовы начать?</h2>
+              <p>Вопросы идут в случайном порядке. Можно ошибаться — после каждого ответа будет короткое объяснение. В конце покажем результат и разберём промахи.</p>
+              <div class="meta-row">
+                <span class="pill">История</span>
+                <span class="pill">Культура</span>
+                <span class="pill">География</span>
+                <span class="pill">Язык</span>
+              </div>
+              <button class="btn" id="startQuiz" type="button">Начать тест
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+              <p style="margin-top:18px;font-size:.82rem">Лучший результат: <b id="bestScore" style="color:var(--ink)">пока нет</b></p>
+            </div>
+
+            <!-- Прохождение -->
+            <div id="quizPlay" hidden>
+              <div class="quiz-top">
+                <span class="q-cat" id="qCat">История</span>
+                <span id="qCount">Вопрос 1 из 20</span>
+              </div>
+              <div class="bar"><i id="qBar"></i></div>
+              <h2 class="q-text" id="qText"></h2>
+              <div class="options" id="qOptions"></div>
+              <div class="feedback" id="qFeedback" role="status" aria-live="polite"></div>
+              <div class="quiz-actions">
+                <button class="btn" id="qNext" type="button" hidden>Следующий вопрос</button>
+              </div>
+            </div>
+
+            <!-- Результат -->
+            <div class="result" id="quizResult" hidden>
+              <div class="ring score-ring" id="resultRing" style="--p:0" aria-hidden="true">
+                <b><span id="resultPercent">0</span><small>%</small></b>
+              </div>
+              <h2 id="resultTitle"></h2>
+              <p class="result-sub" id="resultSub"></p>
+              <div class="result-actions">
+                <button class="btn" id="retryQuiz" type="button">Пройти ещё раз</button>
+                <a class="btn btn-ghost" href="index.html">На главную</a>
+              </div>
+              <div class="review" id="review"></div>
+            </div>
+          </div>
+
+          <p class="reveal" style="text-align:center;color:var(--muted);font-size:.82rem;margin-top:18px">
+            Результат хранится только в вашем браузере. Прогресс раздела засчитывается при результате 60% и выше.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 22 12 12 22 2 12Z"/><path d="M12 7v10M7 12h10"/></svg>
+            </span>
+            <span>
+              <span class="brand-name">Ведалія</span>
+              <span class="brand-sub">Беларусь · учимся вместе</span>
+            </span>
+          </a>
+          <p>Небольшой образовательный проект о Беларуси: история, культура, природа и язык в одном месте.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Разделы</h4>
+          <ul>
+            <li><a href="history.html">История</a></li>
+            <li><a href="culture.html">Культура</a></li>
+            <li><a href="nature.html">Природа и география</a></li>
+            <li><a href="language.html">Белорусский язык</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Полезно</h4>
+          <ul>
+            <li><a href="quiz.html">Проверить знания</a></li>
+            <li><a href="history.html#timeline">Хронология событий</a></li>
+            <li><a href="language.html#phrases">Разговорник</a></li>
+            <li><a href="index.html#progress">Мой прогресс</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Ведалія · учебный проект</span>
+        <span>Материалы носят образовательный характер<span class="dot-sep">·</span>Сделано с уважением к истории</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/quiz.js"></script>
+</body>
+</html>
