@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Природа и география Беларуси — Ведалія</title>
+  <meta name="description" content="Природа и география Беларуси: леса и болота, реки и озёра, шесть областей, национальные парки и Красная книга.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var t = JSON.parse(localStorage.getItem("vedalia.theme"));
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Ведалія — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 22 12 12 22 2 12Z"/><path d="M12 7v10M7 12h10"/></svg>
+        </span>
+        <span>
+          <span class="brand-name">Ведалія</span>
+          <span class="brand-sub">Беларусь · учимся вместе</span>
+        </span>
+      </a>
+      <nav class="nav" data-nav aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="history.html">История</a>
+        <a href="culture.html">Культура</a>
+        <a href="nature.html" class="active" aria-current="page">Природа</a>
+        <a href="language.html">Язык</a>
+        <a href="quiz.html">Тест</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Переключить тему">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" data-nav-toggle type="button" aria-label="Открыть меню" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a><span>/</span><span>Природа и география</span>
+        </nav>
+        <h1>Природа Беларуси: земля лесов, болот и озёр</h1>
+        <p class="lead">Страна лежит в центре Европы, на Восточно-Европейской равнине. Здесь нет гор и морей, зато есть древние леса, тысячи озёр и одно из крупнейших болот Европы.</p>
+        <div class="page-meta">
+          <span class="pill pill-red">6 областей</span>
+          <span class="pill">4 национальных парка</span>
+          <span class="pill">более 20 000 рек</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="grid cols-4">
+          <div class="card reveal">
+            <span class="card-tag">лес</span>
+            <h3 style="font-size:1.9rem;margin-bottom:4px">≈ 40%</h3>
+            <p>территории покрыто лесами. Преобладают сосна, ель, берёза, дуб и ольха.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-tag">вода</span>
+            <h3 style="font-size:1.9rem;margin-bottom:4px">20 000+</h3>
+            <p>рек и ручьёв. Крупнейшие — Днепр, Западная Двина, Неман и Припять.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-tag">озёра</span>
+            <h3 style="font-size:1.9rem;margin-bottom:4px">≈ 11 000</h3>
+            <p>озёр. Самое большое — Нарочь, самое глубокое — Долгое.</p>
+          </div>
+          <div class="card reveal">
+            <span class="card-tag">рельеф</span>
+            <h3 style="font-size:1.9rem;margin-bottom:4px">345 м</h3>
+            <p>высота горы Дзержинской — высшей точки страны. Большая часть — равнины и низины.</p>
+          </div>
+        </div>
+
+        <div class="note reveal" style="margin-top:18px">
+          <strong>Почему это важно:</strong> Беларусь часто называют «лёгкими Европы»: её леса и болота влияют на климат и водный баланс всего региона. Болота накапливают углерод и служат домом для редких птиц.
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="kicker">Административное деление</p>
+            <h2>Шесть областей</h2>
+            <p>Нажмите на область, чтобы увидеть её центр, размеры и главные достопримечательности.</p>
+          </div>
+        </div>
+
+        <div class="region-grid reveal" role="group" aria-label="Области Беларуси">
+          <button class="region" type="button" data-region="brest" aria-pressed="true">
+            <b>Брестская</b><span>центр — Брест · 32,8 тыс. км²</span>
+          </button>
+          <button class="region" type="button" data-region="vitebsk" aria-pressed="false">
+            <b>Витебская</b><span>центр — Витебск · 40,1 тыс. км²</span>
+          </button>
+          <button class="region" type="button" data-region="gomel" aria-pressed="false">
+            <b>Гомельская</b><span>центр — Гомель · 40,4 тыс. км²</span>
+          </button>
+          <button class="region" type="button" data-region="grodno" aria-pressed="false">
+            <b>Гродненская</b><span>центр — Гродно · 25,1 тыс. км²</span>
+          </button>
+          <button class="region" type="button" data-region="minsk" aria-pressed="false">
+            <b>Минская</b><span>центр — Минск · 39,9 тыс. км²</span>
+          </button>
+          <button class="region" type="button" data-region="mogilev" aria-pressed="false">
+            <b>Могилёвская</b><span>центр — Могилёв · 29,1 тыс. км²</span>
+          </button>
+        </div>
+
+        <div class="region-detail reveal" data-region-panel="brest">
+          <h3>Брестская область</h3>
+          <p class="rd-sub">Запад страны · административный центр — Брест</p>
+          <p>Здесь находится <strong>Беловежская пуща</strong> — древнейший лес Европы и дом крупнейшей популяции зубров. В Бресте стоит посетить героическую Брестскую крепость, а в Каменце — оборонительную башню XIII века.</p>
+          <div class="page-meta">
+            <span class="pill">Беловежская пуща</span>
+            <span class="pill">Брестская крепость</span>
+            <span class="pill">Каменецкая вежа</span>
+            <span class="pill">Августовский канал</span>
+          </div>
+        </div>
+
+        <div class="region-detail reveal" data-region-panel="vitebsk" hidden>
+          <h3>Витебская область</h3>
+          <p class="rd-sub">Север страны · административный центр — Витебск</p>
+          <p>Край озёр и лесов. Главные жемчужины — <strong>Браславские озёра</strong> и древний Полоцк с Софийским собором. В Витебске ежегодно проходит фестиваль «Славянский базар». Здесь же расположен старейший заповедник страны — Березинский.</p>
+          <div class="page-meta">
+            <span class="pill">Браславские озёра</span>
+            <span class="pill">Полоцк</span>
+            <span class="pill">Березинский заповедник</span>
+            <span class="pill">«Славянский базар»</span>
+          </div>
+        </div>
+
+        <div class="region-detail reveal" data-region-panel="gomel" hidden>
+          <h3>Гомельская область</h3>
+          <p class="rd-sub">Юго-восток страны · административный центр — Гомель</p>
+          <p>Сердце белорусского Полесья. Здесь раскинулся <strong>Припятский национальный парк</strong> с пойменными лесами и болотами, а в Гомеле сохранился дворцово-парковый ансамбль. Юг области сильнее всего пострадал от Чернобыльской катастрофы.</p>
+          <div class="page-meta">
+            <span class="pill">Припятский парк</span>
+            <span class="pill">Полесье</span>
+            <span class="pill">дворцово-парковый ансамбль</span>
+          </div>
+        </div>
+
+        <div class="region-detail reveal" data-region-panel="grodno" hidden>
+          <h3>Гродненская область</h3>
+          <p class="rd-sub">Запад страны · административный центр — Гродно</p>
+          <p>Регион с самой плотной концентрацией памятников: <strong>Мирский замок</strong>, Коложская церковь XII века, Августовский канал. Гродно — один из красивейших городов страны с хорошо сохранившейся исторической застройкой.</p>
+          <div class="page-meta">
+            <span class="pill">Мирский замок</span>
+            <span class="pill">Коложская церковь</span>
+            <span class="pill">Августовский канал</span>
+            <span class="pill">Гродно</span>
+          </div>
+        </div>
+
+        <div class="region-detail reveal" data-region-panel="minsk" hidden>
+          <h3>Минская область</h3>
+          <p class="rd-sub">Центр страны · административный центр — Минск</p>
+          <p>Самый населённый регион. Здесь находятся <strong>Нарочанский национальный парк</strong> с курортной зоной и озером Нарочь, а также Несвижский замок — резиденция Радзивиллов и объект ЮНЕСКО. Минск — отдельный город республиканского подчинения.</p>
+          <div class="page-meta">
+            <span class="pill">Нарочь</span>
+            <span class="pill">Нарочанский парк</span>
+            <span class="pill">Несвижский замок</span>
+            <span class="pill">Минск</span>
+          </div>
+        </div>
+
+        <div class="region-detail reveal" data-region-panel="mogilev" hidden>
+          <h3>Могилёвская область</h3>
+          <p class="rd-sub">Восток страны · административный центр — Могилёв</p>
+          <p>Край Днепра и широких полей. В Могилёве стоит увидеть собор Святого Станислава и городскую ратушу, а под Могилёвом — <strong>Буйничское поле</strong>, связанное с обороной города в 1941 году и с именем писателя Константина Симонова.</p>
+          <div class="page-meta">
+            <span class="pill">Могилёв</span>
+            <span class="pill">Буйничское поле</span>
+            <span class="pill">Днепр</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="kicker">Охрана природы</p>
+            <h2>Парки и заповедники</h2>
+            <p>Четыре национальных парка и один биосферный заповедник сохраняют ландшафты и редкие виды.</p>
+          </div>
+        </div>
+
+        <div class="grid cols-2">
+          <article class="card park reveal">
+            <span class="park-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12M12 12C12 7 8 4 4 4c0 5 3 8 8 8ZM12 12c0-5 4-8 8-8 0 5-3 8-8 8Z"/></svg>
+            </span>
+            <h3>Беловежская пуща</h3>
+            <p>Древнейший реликтовый лес Европы на границе с Польшей. Объект Всемирного наследия ЮНЕСКО. Главный символ — <strong>зубр</strong>, крупнейшее наземное животное Европы.</p>
+            <div class="page-meta"><span class="pill">Брестская область</span><span class="pill">ЮНЕСКО</span></div>
+          </article>
+
+          <article class="card park reveal">
+            <span class="park-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18c2-4 5-6 9-6s7 2 9 6M7 9c1-2 3-3 5-3s4 1 5 3"/></svg>
+            </span>
+            <h3>Браславские озёра</h3>
+            <p>Национальный парк на севере Витебщины. Сотни озёр ледникового происхождения, холмы, сосновые леса и отличные условия для походов и каякинга.</p>
+            <div class="page-meta"><span class="pill">Витебская область</span><span class="pill">озёрный край</span></div>
+          </article>
+
+          <article class="card park reveal">
+            <span class="park-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            </span>
+            <h3>Нарочанский</h3>
+            <p>Парк вокруг самого большого озера страны — <strong>Нарочи</strong>. Здесь сочетаются курортная зона, леса и деревни с традиционной культурой.</p>
+            <div class="page-meta"><span class="pill">Минская область</span><span class="pill">озеро Нарочь</span></div>
+          </article>
+
+          <article class="card park reveal">
+            <span class="park-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c3-6 6-9 8-9s5 3 8 9M8 20c2-3 3-4 4-4s2 1 4 4"/></svg>
+            </span>
+            <h3>Припятский</h3>
+            <p>Пойменные леса и болота Полесья. Место обитания редких птиц и зверей; часть парка — эталон нетронутой поймы Припяти.</p>
+            <div class="page-meta"><span class="pill">Гомельская область</span><span class="pill">Полесье</span></div>
+          </article>
+        </div>
+
+        <div class="fact-box reveal" style="margin-top:18px">
+          <span class="fb-icon" aria-hidden="true">Б</span>
+          <p><b>Березинский биосферный заповедник</b> основан в 1925 году и считается старейшим заповедником Беларуси. Он расположен в Витебской области и входит во всемирную сеть биосферных резерватов ЮНЕСКО.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="grid cols-2">
+          <div class="card reveal">
+            <span class="card-tag">Реки</span>
+            <h3>Водные артерии</h3>
+            <ul class="check-list">
+              <li><strong>Днепр</strong> — самая длинная река в пределах страны (около 700 км).</li>
+              <li><strong>Западная Двина</strong> — несёт воды к Балтийскому морю.</li>
+              <li><strong>Неман</strong> — главная река запада, связана с историей Гродно.</li>
+              <li><strong>Припять</strong> — крупнейший приток Днепра, ось Полесья.</li>
+              <li><strong>Березина и Сож</strong> — важные притоки и исторические рубежи.</li>
+            </ul>
+          </div>
+          <div class="card reveal">
+            <span class="card-tag">Озёра</span>
+            <h3>Голубые глаза страны</h3>
+            <ul class="check-list">
+              <li><strong>Нарочь</strong> — крупнейшее озеро, площадь около 80 км².</li>
+              <li><strong>Освейское</strong> — второе по площади, на севере страны.</li>
+              <li><strong>Дрисвяты</strong> — одно из самых глубоких и живописных.</li>
+              <li><strong>Лукомское</strong> — часть Браславской озёрной группы.</li>
+              <li><strong>Долгое</strong> — самое глубокое озеро Беларуси.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card reveal" style="margin-top:18px">
+          <span class="card-tag">Красная книга</span>
+          <h3>Кого охраняют</h3>
+          <p>В Красную книгу Беларуси занесены сотни видов растений и животных. Среди самых известных — <strong>зубр</strong>, <strong>рысь</strong>, <strong>бурый медведь</strong>, <strong>чёрный аист</strong> и <strong>большой подорлик</strong>. Главные угрозы — осушение болот, вырубка старых лесов и изменение климата.</p>
+          <div class="page-meta" style="margin-top:16px">
+            <span class="pill">зубр</span>
+            <span class="pill">рысь</span>
+            <span class="pill">чёрный аист</span>
+            <span class="pill">охрана болот</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:34px;padding-top:26px;border-top:1px solid var(--line)">
+          <button class="btn btn-dark" type="button" data-mark-track="nature" aria-pressed="false">Отметить как изученное</button>
+          <a class="btn btn-ghost" href="language.html">Дальше: белорусский язык
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 22 12 12 22 2 12Z"/><path d="M12 7v10M7 12h10"/></svg>
+            </span>
+            <span>
+              <span class="brand-name">Ведалія</span>
+              <span class="brand-sub">Беларусь · учимся вместе</span>
+            </span>
+          </a>
+          <p>Небольшой образовательный проект о Беларуси: история, культура, природа и язык в одном месте.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Разделы</h4>
+          <ul>
+            <li><a href="history.html">История</a></li>
+            <li><a href="culture.html">Культура</a></li>
+            <li><a href="nature.html">Природа и география</a></li>
+            <li><a href="language.html">Белорусский язык</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Полезно</h4>
+          <ul>
+            <li><a href="quiz.html">Проверить знания</a></li>
+            <li><a href="history.html#timeline">Хронология событий</a></li>
+            <li><a href="language.html#phrases">Разговорник</a></li>
+            <li><a href="index.html#progress">Мой прогресс</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Ведалія · учебный проект</span>
+        <span>Материалы носят образовательный характер<span class="dot-sep">·</span>Сделано с уважением к истории</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Культура Беларуси — традиции, литература, музыка, кухня | Ведалія</title>
+  <meta name="description" content="Культура Беларуси: календарные традиции и праздники, литература, музыка, архитектура, национальная кухня и народные ремёсла.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var t = JSON.parse(localStorage.getItem("vedalia.theme"));
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Ведалія — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 22 12 12 22 2 12Z"/><path d="M12 7v10M7 12h10"/></svg>
+        </span>
+        <span>
+          <span class="brand-name">Ведалія</span>
+          <span class="brand-sub">Беларусь · учимся вместе</span>
+        </span>
+      </a>
+      <nav class="nav" data-nav aria-label="Основная навигация">
+        <a href="index.html">Главная</a>
+        <a href="history.html">История</a>
+        <a href="culture.html" class="active" aria-current="page">Культура</a>
+        <a href="nature.html">Природа</a>
+        <a href="language.html">Язык</a>
+        <a href="quiz.html">Тест</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Переключить тему">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" data-nav-toggle type="button" aria-label="Открыть меню" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a><span>/</span><span>Культура</span>
+        </nav>
+        <h1>Культура Беларуси: традиции, слово, музыка и вкус</h1>
+        <p class="lead">Культура складывается из мелочей: узора на рушнике, песни за столом, запаха драников и строки любимого поэта. Разберёмся в шести больших темах.</p>
+        <div class="page-meta">
+          <span class="pill pill-red">6 тем</span>
+          <span class="pill">традиции · литература · музыка</span>
+          <span class="pill">архитектура · кухня · ремёсла</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="culture-hero-grid">
+          <div class="quote reveal">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>А хто там ідзе, а хто там ідзе<br>ў агромністай такой грамадзе?</blockquote>
+            <cite>Янка Купала, «А хто там ідзе?» (1905–1907)</cite>
+          </div>
+          <div class="card reveal" style="display:flex;flex-direction:column;justify-content:space-between">
+            <div>
+              <span class="card-tag">Контекст</span>
+              <h3>Живая, а не музейная</h3>
+              <p>Белорусская культура — это не только древние обряды и памятники. Это современные книги, музыка, театр, кино и люди, которые каждый день говорят, поют и готовят по-своему.</p>
+              <p>Многие традиции дошли до нас благодаря деревне, где календарные обряды сохранялись столетиями.</p>
+            </div>
+            <div class="page-meta" style="margin-top:18px">
+              <span class="pill">фольклор</span>
+              <span class="pill">книги</span>
+              <span class="pill">ремесло</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div data-tabs>
+          <div class="tabs" role="tablist" aria-label="Темы культуры">
+            <button class="tab" id="tab-traditions" role="tab" aria-selected="true" aria-controls="panel-traditions" tabindex="0">Традиции</button>
+            <button class="tab" id="tab-literature" role="tab" aria-selected="false" aria-controls="panel-literature" tabindex="-1">Литература</button>
+            <button class="tab" id="tab-music" role="tab" aria-selected="false" aria-controls="panel-music" tabindex="-1">Музыка</button>
+            <button class="tab" id="tab-architecture" role="tab" aria-selected="false" aria-controls="panel-architecture" tabindex="-1">Архитектура</button>
+            <button class="tab" id="tab-cuisine" role="tab" aria-selected="false" aria-controls="panel-cuisine" tabindex="-1">Кухня</button>
+            <button class="tab" id="tab-crafts" role="tab" aria-selected="false" aria-controls="panel-crafts" tabindex="-1">Ремёсла</button>
+          </div>
+
+          <!-- Традиции -->
+          <div class="tab-panel" id="panel-traditions" role="tabpanel" aria-labelledby="tab-traditions">
+            <div class="grid cols-3">
+              <article class="card reveal">
+                <span class="card-tag">зима · 7–19 января</span>
+                <h3>Коляды</h3>
+                <p>Самый весёлый зимний обряд. Молодёжь ходила по дворам с песнями-колядками, желала хозяевам урожая и достатка. Ряженые водили «Калядную зорку» и разыгрывали сценки.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">весна · март</span>
+                <h3>Гуканне вясны</h3>
+                <p>Обряд «закликания весны»: на возвышенностях пели веснянки, пекли птичек из теста и подбрасывали их вверх. Так люди торопили тепло и просили хорошего года.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">лето · ночь на 7 июля</span>
+                <h3>Купалье</h3>
+                <p>Праздник летнего солнцестояния с кострами, венками на воде и песнями. По легенде, в купальскую ночь расцветает папоротник, указывающий на клад.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">осень · август</span>
+                <h3>Дожинки</h3>
+                <p>Праздник окончания жатвы. Из последних колосьев плели венок, который торжественно вносили в деревню. Сегодня Дожинки часто проводят как большой районный фестиваль.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">театр</span>
+                <h3>Батлейка</h3>
+                <p>Народный кукольный театр, появившийся в XVI–XVII веках. Двухъярусный ящик-сцена, куклы на палках и рождественские сюжеты — от библейских до бытовых и сатирических.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">семья</span>
+                <h3>Свадебные обряды</h3>
+                <p>Длинная цепочка ритуалов: сватовство, «заручыны», выпечка каравая, благословение иконой и рушником. Рушник — вышитое полотенце — до сих пор остаётся символом согласия.</p>
+              </article>
+            </div>
+            <div class="note reveal" style="margin-top:18px">
+              <strong>Календарь традиций:</strong> Коляды — 7–19 января · Гуканне вясны — март · Купалье — ночь на 7 июля · Дожинки — август. Многие обряды сегодня проводятся как фестивали и включены в туристические маршруты.
+            </div>
+          </div>
+
+          <!-- Литература -->
+          <div class="tab-panel" id="panel-literature" role="tabpanel" aria-labelledby="tab-literature" hidden>
+            <div class="grid cols-3">
+              <article class="card reveal">
+                <span class="card-tag">ок. 1470–1551</span>
+                <h3>Франциск Скорина</h3>
+                <p>Первопечатник, переводчик и просветитель из Полоцка. В 1517 году издал «Псалтырь» — первую печатную книгу для восточных славян. Его предисловия — первые образцы белорусской публицистики.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">1882–1942</span>
+                <h3>Янка Купала</h3>
+                <p>Иван Луцевич — поэт, драматург, классик новой белорусской литературы. Сборники «Жалейка», «Гусляр», пьеса «Тутэйшыя». Его строки стали символом национального пробуждения.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">1882–1956</span>
+                <h3>Якуб Колас</h3>
+                <p>Константин Мицкевич — поэт и прозаик, автор поэм «Новая зямля» и «Сымон-музыка». Писал о деревне, труде и человеческом достоинстве.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">1891–1917</span>
+                <h3>Максим Богданович</h3>
+                <p>Поэт, критик, переводчик. Сборник «Вянок» (1913) и стихотворение «Слуцкія ткачыхі» — классика белорусской лирики. Прожил всего 25 лет.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">1924–2003</span>
+                <h3>Василь Быков</h3>
+                <p>Один из крупнейших прозаиков XX века. Повести «Сотнікаў», «Знак бяды», «Абеліск» — о нравственном выборе человека на войне.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">1930–1984</span>
+                <h3>Владимир Короткевич</h3>
+                <p>Писатель, поэт и историк. «Дзікае паляванне караля Стаха», «Каласы пад сярпом тваім» — исторические романы, которые вернули читателю интерес к прошлому.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">род. 1948</span>
+                <h3>Светлана Алексиевич</h3>
+                <p>Писательница, лауреат Нобелевской премии по литературе 2015 года. Работает в жанре документальной прозы: «У войны не женское лицо», «Чернобыльская молитва».</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">XII век</span>
+                <h3>Кирилл Туровский</h3>
+                <p>Проповедник и писатель, которого называли «Златоустом». Его «Слова» — выдающиеся памятники древней книжности.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">совет</span>
+                <h3>С чего начать чтение</h3>
+                <p>Попробуйте «Дзікае паляванне караля Стаха» Короткевича, «Сотнікаў» Быкова и стихи Богдановича. Даже в переводе они передают интонацию белорусской литературы.</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Музыка -->
+          <div class="tab-panel" id="panel-music" role="tabpanel" aria-labelledby="tab-music" hidden>
+            <div class="grid cols-2">
+              <article class="card reveal">
+                <span class="card-tag">фольклор</span>
+                <h3>Народная музыка</h3>
+                <p>Обрядовые и лирические песни, частушки, наигрыши. Традиционные инструменты — <strong>дуда</strong> (волынка), <strong>цимбалы</strong>, жалейка, бубен и скрипка. Многоголосие белорусских песен считается одним из богатейших в Европе.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">1969–2003</span>
+                <h3>«Песняры» и Владимир Мулявин</h3>
+                <p>Ансамбль под руководством Владимира Мулявина соединил народную песню с рок- и поп-музыкой. «Песняры» гастролировали по всему миру и сделали белорусскую музыку узнаваемой.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">с 1992</span>
+                <h3>«Славянский базар»</h3>
+                <p>Международный фестиваль искусств в Витебске, который проходит каждое лето. Конкурс молодых исполнителей и большие концерты собирают артистов из десятков стран.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">современность</span>
+                <h3>Что слушать дальше</h3>
+                <p>Кроме фольклора и эстрады, в Беларуси есть рок, джаз, электроника и академическая музыка. Ищите записи фольклорных ансамблей — это лучший способ услышать язык в живом звучании.</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Архитектура -->
+          <div class="tab-panel" id="panel-architecture" role="tabpanel" aria-labelledby="tab-architecture" hidden>
+            <div class="grid cols-3">
+              <article class="media-card reveal">
+                <div class="mc-top red" aria-hidden="true">✦</div>
+                <div class="mc-body">
+                  <h3>Софийский собор, Полоцк</h3>
+                  <p>Построен в XI веке при Всеславе Чародее. Перестроен в XVIII веке в стиле виленского барокко. Один из символов древней государственности.</p>
+                </div>
+              </article>
+              <article class="media-card reveal">
+                <div class="mc-top gold" aria-hidden="true">✦</div>
+                <div class="mc-body">
+                  <h3>Коложская церковь, Гродно</h3>
+                  <p>Храм XII века, сохранивший фрагменты древней кладки из плинфы. Уникален тем, что стоит на берегу Немана и пережил столетия оползней.</p>
+                </div>
+              </article>
+              <article class="media-card reveal">
+                <div class="mc-top green" aria-hidden="true">✦</div>
+                <div class="mc-body">
+                  <h3>Каменецкая вежа</h3>
+                  <p>Оборонительная башня XIII века в Каменце (Брестская область), известная как «Белая вежа». Единственная полностью сохранившаяся башня такого типа в Беларуси.</p>
+                </div>
+              </article>
+              <article class="media-card reveal">
+                <div class="mc-top red" aria-hidden="true">✦</div>
+                <div class="mc-body">
+                  <h3>Мирский замок</h3>
+                  <p>Замок XVI века, объект ЮНЕСКО с 2000 года. Сочетает готику, ренессанс и барокко; окружён парком и прудом.</p>
+                </div>
+              </article>
+              <article class="media-card reveal">
+                <div class="mc-top gold" aria-hidden="true">✦</div>
+                <div class="mc-body">
+                  <h3>Несвижский замок</h3>
+                  <p>Резиденция магнатов Радзивиллов, объект ЮНЕСКО с 2005 года. Дворцово-парковый ансамбль XVI–XVIII веков с богатыми интерьерами.</p>
+                </div>
+              </article>
+              <article class="media-card reveal">
+                <div class="mc-top green" aria-hidden="true">✦</div>
+                <div class="mc-body">
+                  <h3>Костёл в Гервятах</h3>
+                  <p>Неоготический храм начала XX века, один из самых высоких в Беларуси. Напоминает миниатюрный собор и привлекает туристов со всей страны.</p>
+                </div>
+              </article>
+            </div>
+            <div class="note reveal" style="margin-top:18px">
+              <strong>Как смотреть архитектуру:</strong> обращайте внимание на материал (плинфа, камень, кирпич), форму окон и башен, а также на то, как здание перестраивалось. Один памятник часто хранит следы нескольких эпох.
+            </div>
+          </div>
+
+          <!-- Кухня -->
+          <div class="tab-panel" id="panel-cuisine" role="tabpanel" aria-labelledby="tab-cuisine" hidden>
+            <div class="grid cols-2">
+              <article class="card reveal">
+                <span class="card-tag">визитная карточка</span>
+                <h3>Драники</h3>
+                <p>Картофельные оладьи, которые в Беларуси называют «дранікамі». Тёртый картофель, лук, соль — и горячая сковорода. Подают со сметаной или мачанкой.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">сытно</span>
+                <h3>Бабка</h3>
+                <p>Картофельная запеканка с мясом, грибами или салом. Название связано с формой для запекания. Блюдо сытное, домашнее и очень «белорусское».</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">соус</span>
+                <h3>Мачанка</h3>
+                <p>Густой мясной соус, который едят с блинами или картофелем. В разных регионах готовят по-своему — с колбасой, рёбрышками или грибами.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">зима</span>
+                <h3>Холодец</h3>
+                <p>Студень из мяса и костей, который традиционно готовили к праздникам. Подают с хреном и горчицей.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">десерт</span>
+                <h3>Сырники и кулага</h3>
+                <p>Сырники из творога — привычный завтрак. Кулага — старинный десерт из ржаной муки и ягод, который напоминает о кухне наших прабабушек.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">главный продукт</span>
+                <h3>Бульба</h3>
+                <p>Картофель появился в Беларуси в XVIII веке и стал основой крестьянского стола. Из него готовят драники, бабку, клёцки, колдуны и десятки других блюд.</p>
+              </article>
+            </div>
+            <div class="note reveal" style="margin-top:18px">
+              <strong>Совет:</strong> белорусская кухня — простая и сытная. Если вы пробуете её впервые, начните с драников со сметаной и холодца, а на десерт возьмите сырники.
+            </div>
+          </div>
+
+          <!-- Ремёсла -->
+          <div class="tab-panel" id="panel-crafts" role="tabpanel" aria-labelledby="tab-crafts" hidden>
+            <div class="grid cols-3">
+              <article class="card reveal">
+                <span class="card-tag">солома</span>
+                <h3>Соломоплетение</h3>
+                <p>Из соломы плели шляпы, корзины, обереги и фигурки. Техника требует терпения и точности; сегодня это популярный вид декоративного искусства.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">ткань</span>
+                <h3>Ткачество и вышивка</h3>
+                <p>Рушники, скатерти и рубахи украшали красным узором. Геометрический орнамент — ромбы, кресты, звёзды — был не просто декором, а оберегом.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">глина</span>
+                <h3>Гончарство</h3>
+                <p>Глиняная посуда, игрушки и изразцы. Центры гончарства сохранились в разных регионах, а мастера до сих пор работают на традиционном круге.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">бумага</span>
+                <h3>Вытинанка</h3>
+                <p>Ажурное вырезание из бумаги. Кружевные узоры вырезали для окон и праздничных украшений; сегодня это самостоятельный вид искусства.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">дерево</span>
+                <h3>Резьба по дереву</h3>
+                <p>Деревянная посуда, мебель, наличники и иконостасы. Резьба украшала и крестьянскую избу, и храм — от простых узоров до сложных композиций.</p>
+              </article>
+              <article class="card reveal">
+                <span class="card-tag">орнамент</span>
+                <h3>Красный узор</h3>
+                <p>Красный цвет в белорусском орнаменте символизирует жизнь, солнце и защиту. Именно поэтому он стал основой современного флага и праздничной вышивки.</p>
+              </article>
+            </div>
+            <div class="note reveal" style="margin-top:18px">
+              <strong>Где увидеть:</strong> ремёсла представлены в этнографических музеях, на ярмарках и фестивалях. Многие мастера проводят мастер-классы — это лучший способ понять технику.
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:40px;padding-top:26px;border-top:1px solid var(--line)">
+          <button class="btn btn-dark" type="button" data-mark-track="culture" aria-pressed="false">Отметить как изученное</button>
+          <a class="btn btn-ghost" href="nature.html">Дальше: природа
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"><path d="M12 2 22 12 12 22 2 12Z"/><path d="M12 7v10M7 12h10"/></svg>
+            </span>
+            <span>
+              <span class="brand-name">Ведалія</span>
+              <span class="brand-sub">Беларусь · учимся вместе</span>
+            </span>
+          </a>
+          <p>Небольшой образовательный проект о Беларуси: история, культура, природа и язык в одном месте.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Разделы</h4>
+          <ul>
+            <li><a href="history.html">История</a></li>
+            <li><a href="culture.html">Культура</a></li>
+            <li><a href="nature.html">Природа и география</a></li>
+            <li><a href="language.html">Белорусский язык</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Полезно</h4>
+          <ul>
+            <li><a href="quiz.html">Проверить знания</a></li>
+            <li><a href="history.html#timeline">Хронология событий</a></li>
+            <li><a href="language.html#phrases">Разговорник</a></li>
+            <li><a href="index.html#progress">Мой прогресс</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Ведалія · учебный проект</span>
+        <span>Материалы носят образовательный характер<span class="dot-sep">·</span>Сделано с уважением к истории</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
