@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" role="img" aria-label="Флаг Беларуси">
+  <defs>
+    <pattern id="bel-ornament" width="33.34" height="20" patternUnits="userSpaceOnUse">
+      <rect width="33.34" height="20" fill="#ffffff"/>
+      <g fill="#C8102E">
+        <path d="M16.67 3 24.67 10 16.67 17 8.67 10Z"/>
+        <path d="M16.67 0 19.87 3.2 13.47 3.2Z"/>
+        <path d="M16.67 20 19.87 16.8 13.47 16.8Z"/>
+        <path d="M0 6 4.2 10 0 14Z"/>
+        <path d="M33.34 6 29.14 10 33.34 14Z"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="300" height="100" fill="#C8102E"/>
+  <rect y="100" width="300" height="50" fill="#009739"/>
+  <rect width="33.34" height="150" fill="url(#bel-ornament)"/>
+</svg>
